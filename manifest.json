@@ -1,0 +1,16 @@
+{
+  "manifest_version": 2,
+
+  "name": "EasyDeveloper",
+  "description": "This extension extension which helps to open the developer mode instantly in one-click",
+  "version": "1.0",
+
+  "browser_action": {
+    "default_icon": "icon.png",
+    "default_popup": "popup.html"
+  },
+  "permissions": [
+    "activeTab",
+    "https://ajax.googleapis.com/"
+  ]
+}
